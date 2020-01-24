@@ -1,0 +1,6 @@
+a=int(input('enter the value of x1'))
+b=int(input('enter the value of x2'))
+c=int(input('enter the value of y1'))
+d=int(input('enter the value of y2'))
+x=((b-a)**2+(d-c)**2)**0.5
+print('distance',x)

@@ -1,0 +1,5 @@
+p=int(input())
+t=int(input())
+r=int(input())
+si=(p*r*t)/100
+print(si)
