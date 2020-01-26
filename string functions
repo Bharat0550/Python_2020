@@ -1,0 +1,2 @@
+a=9('This is python class')
+print(a)
