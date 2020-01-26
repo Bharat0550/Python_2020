@@ -1,2 +1,3 @@
-a=9('This is python class')
-print(a)
+a='This is python class')
+fd=a.count('s')
+print(fd)
