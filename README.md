@@ -1,8 +1,4 @@
-a="""name Bharat singh
-section
-E
-rolll no.
-45
-hobbies gaming"""
-print(a)
+'''Bharat singh
+section E roll no. 45
+
 
