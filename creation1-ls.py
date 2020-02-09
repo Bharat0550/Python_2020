@@ -1,0 +1,2 @@
+ls=[]
+print(ls)
