@@ -19,68 +19,68 @@
 
 #opening a file
 
-# f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","rt")
+f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","rt")
 
-# print(f.read())
-# print(f.read(17))
+ print(f.read())
+ print(f.read(17))
 
-# print(f.readline())
+ print(f.readline())
 
-# print(f.readline())
+ print(f.readline())
 
 
 #read line by line
-# for i in f:
-#     print(f)
-# f.close()
+ for i in f:
+     print(f)
+ f.close()
 
 #writting to an existing file
 
-# f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","at")
-# f.write("ggggggggggg")
-# f.close()
+ f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","at")
+ f.write("ggggggggggg")
+ f.close()
 
-# f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","rt")
-# t=f.read()
-# print(t)
+ f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","rt")
+ t=f.read()
+ print(t)
 # Overwritting the content of existing file
-# f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","wt")
-# f.write("hello this is an overwrite file")
-# f.close()
-# f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","rt")
-# print(f.read())
+ f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","wt")
+ f.write("hello this is an overwrite file")
+ f.close()
+ f=open("C:\HTML Tutorials\CSS Basic tutotials\python for brginers\demo_file.txt","rt")
+ print(f.read())
 
 # creating a new file
 
-# f=open("created_by_python.txt","x")
-# f.write("jalebi babay")
-# f.close()
+ f=open("created_by_python.txt","x")
+ f.write("jalebi babay")
+ f.close()
 
-# f=open("created_by_python.txt","rt")
-# print(f.read())
+ f=open("created_by_python.txt","rt")
+ print(f.read())
 
-# g=open("zero.txt","x")
-# g.write("bharat singh")
-# g.close()
-# # g=open("zero.txt","at")
-# # g.write("hello bolo")
-# # g.close()
+ g=open("zero.txt","x")
+ g.write("bharat singh")
+ g.close()
+ g=open("zero.txt","at")
+ g.write("hello bolo")
+ g.close()
 
-# g=open("zero.txt","rt")
-# print(g.read())
+ g=open("zero.txt","rt")
+ print(g.read())
 
 # deleting a file
-# import os
-# os.remove("zero.txt")
+ import os
+ os.remove("zero.txt")
 
-# f=open("zero.txt","rt")
+ f=open("zero.txt","rt")
 
-# import  os
-# if os.path.exists("zero.txt"):
-#     os.remove("zero.txt")
-# else:
-#     print("file nahi hai bro")    
+ import  os
+ if os.path.exists("zero.txt"):
+     os.remove("zero.txt")
+ else:
+     print("file nahi hai bro")    
 
 #deleting a folder
-# import os
-# os.rmdir("myfolder")
+ import os
+ os.rmdir("myfolder")
